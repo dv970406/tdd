@@ -24,7 +24,7 @@ describe("ProductService", () => {
 
   it("should filter out only available items", async () => {
     // Given
-    const productService = new ProductService(new StubProductClient());
+    // const productService = new ProductService(new StubProductClient());
 
     // When
     const items = await productService.fetchAvailableItems();

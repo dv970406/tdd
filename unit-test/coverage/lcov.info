@@ -24,13 +24,13 @@ FN:3,ProductService
 FN:7,fetchAvailableItems
 FNF:2
 FNH:2
-FNDA:3,ProductService
+FNDA:2,ProductService
 FNDA:2,fetchAvailableItems
 DA:1,1
 DA:2,1
 DA:3,1
-DA:4,3
-DA:5,3
+DA:4,2
+DA:5,2
 DA:6,1
 DA:7,1
 DA:8,2
@@ -42,7 +42,7 @@ DA:13,1
 DA:14,1
 LF:14
 LH:14
-BRDA:3,0,0,3
+BRDA:3,0,0,2
 BRDA:7,1,0,2
 BRDA:10,2,0,2
 BRDA:10,3,0,4
