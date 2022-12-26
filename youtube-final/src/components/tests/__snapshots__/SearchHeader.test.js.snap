@@ -2,7 +2,7 @@
 
 exports[`SearchHeader renders correctly 1`] = `
 <header
-  className="w-full flex p-4 text-2xl border-b border-zinc-600 mb-4"
+  className="flex w-full p-4 mb-4 text-2xl border-b border-zinc-600"
 >
   <a
     className="flex items-center"
@@ -29,24 +29,24 @@ exports[`SearchHeader renders correctly 1`] = `
       />
     </svg>
     <h1
-      className="font-bold ml-2 text-3xl"
+      className="ml-2 text-3xl font-bold"
     >
       Youtube
     </h1>
   </a>
   <form
-    className="w-full flex justify-center"
+    className="flex justify-center w-full"
     onSubmit={[Function]}
   >
     <input
-      className="w-7/12 p-2 outline-none bg-black text-gray-50"
+      className="w-7/12 p-2 bg-black outline-none text-gray-50"
       onChange={[Function]}
       placeholder="Search..."
       type="text"
       value=""
     />
     <button
-      className="bg-zinc-600 px-4"
+      className="px-4 bg-zinc-600"
     >
       <svg
         fill="currentColor"
