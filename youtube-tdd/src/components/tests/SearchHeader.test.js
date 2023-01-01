@@ -13,6 +13,7 @@ describe('SearchHeader', () => {
     expect(component.toJSON()).toMatchSnapshot();
   });
 
+  // "/:keyword" 경로에 keyword로 bts를 준 경우 
   it('renders with keyword correctly', async () => {
     render(
       withRouter(<Route path='/:keyword' element={<SearchHeader />} />, '/bts')
@@ -20,6 +21,8 @@ describe('SearchHeader', () => {
     expect(screen.getByDisplayValue('bts')).toBeInTheDocument();
   });
 
+  // "/home" 경로에서 검색창에 "/videos/${searchKeyword}"를 검색하고 button을 클릭한 경우
+  // "Search result for ${searchKeyword}" 라는 text를 얻을 수 있는가
   it('navigates to results page on search button click', () => {
     const searchKeyword = 'fake-keyword';
 
